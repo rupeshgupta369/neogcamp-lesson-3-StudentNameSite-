@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #7c3AED;
+    --off-white: #f3f4f6;
     --dark-gray: #6B7280;
 }
 
@@ -68,10 +69,11 @@ hr {
 
 }
 
-.navigation .nav-brand{
+.navigation .nav-brand {
     font-weight: bold;
     font-size: 1.1rem;
 }
+
 .navigation .nav-pills {
     text-align: right;
 }
@@ -79,27 +81,60 @@ hr {
 .navigation .link {
     color: white;
 }
-.navigation .link-active{
+
+.navigation .link-active {
     font-weight: bold;
 }
+
 /* header */
 
-.hero{
+.hero {
     padding: 2rem;
     text-align: center;
 
 }
 
-.hero .hero-img{
+.hero .hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
-} 
+}
 
-.hero-heading{
-padding-top: 1rem;
+.hero-heading {
+    padding-top: 1rem;
     color: var(--dark-gray);
 }
-.heading-inverted{
+
+.heading-inverted {
     color: var(--primary-color);
+}
+
+/* section */
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
