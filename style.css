@@ -35,8 +35,11 @@ hr {
 
 /* links */
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .primary-link {
@@ -72,7 +75,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 
 .navigation .nav-pills {
@@ -91,6 +94,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
     text-align: center;
 
 }
@@ -125,6 +129,11 @@ hr {
 }
 
 /* footer */
+.footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer {
     background-color: var(--primary-color);
     padding: 2rem 1rem;
