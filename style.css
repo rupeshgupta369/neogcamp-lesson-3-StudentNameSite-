@@ -102,6 +102,11 @@ hr {
     font-weight: bold;
 }
 
+.navigation>.list-non-bullet>.list-item-inline:hover {
+    background-color: var(--background-color);
+    font-size: 1.5em;
+}
+
 /* header */
 
 .hero {
@@ -140,8 +145,8 @@ hr {
     background-color: var(--background-color2);
     border-bottom-left-radius: 2rem;
     /* border-radius: 2rem; */
-margin-left: 10em;
-margin-right: 10em;
+    margin-left: 10em;
+    margin-right: 10em;
 }
 
 /* footer */
